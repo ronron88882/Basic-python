@@ -2,8 +2,6 @@ text = "How I want a drink, alcoholic of course, after the heavy chapters involv
 words = text.split()
 word_length = [len(word) for word in words]
 
-print(word_length)
-
 answer = ''.join(map(str, word_length))
 
 answer
