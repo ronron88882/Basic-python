@@ -4,4 +4,4 @@ word_length = [len(word) for word in words]
 
 answer = ''.join(map(str, word_length))
 
-answer
+print(answer)
