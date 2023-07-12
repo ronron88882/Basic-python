@@ -6,5 +6,6 @@ def prime(n):
             return False
     return True
 
+
 prime(61)
 prime(10)

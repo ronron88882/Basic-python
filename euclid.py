@@ -2,7 +2,6 @@ def yc(a, b):
     while b != 0:
         a, b = b, a % b
     return a
-
 def sosuu(a, b):
     so = yc(a, b)
     if so == 1:
